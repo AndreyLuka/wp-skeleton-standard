@@ -1,0 +1,28 @@
+/*
+!/.gitignore
+
+!/.editorconfig
+!/.htaccess
+!/composer.json
+!/composer.lock
+!/LICENSE.md
+!/README.md
+
+# WP config
+!/wp-config.dist.php
+
+# WP content
+!/wp-content/
+/wp-content/*
+!/wp-content/plugins/
+!/wp-content/themes/
+
+# WP plugins
+/wp-content/plugins/*
+!/wp-content/plugins/.keep
+# !/wp-content/plugins/<plugin-name>/
+
+# WP themes
+/wp-content/themes/*
+!/wp-content/themes/.keep
+# !/wp-content/themes/<theme-name>/
