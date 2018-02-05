@@ -79,9 +79,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-/** Custom site url */
-//define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+/** URLs */
 //define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+//define('WP_SITEURL', WP_HOME);
 
 /** Disable auto updates */
 define('AUTOMATIC_UPDATER_DISABLED', true);
